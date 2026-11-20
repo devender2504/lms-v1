@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'cat /etc/passwd'
             }
         }
         stage('Deploy') {
