@@ -9,6 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'cat /etc/passwd'
+                echo 'Testing....'
             }
         }
         stage('Deploy') {
